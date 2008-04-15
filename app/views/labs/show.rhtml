@@ -1,0 +1,42 @@
+<div id="reservations">
+  <%= render :active_scaffold => :reservations,
+    :constraints => {:lab_id => @record.id},
+    :label => "Reservations for #{@record.name}" %>
+</div>
+
+<div id="asset_container">
+  <ul id="asset_tabs" class="control_tabs">
+    <li><a href="#equipment">Equipment</a></li>
+    <li><a href="#software"> Software </a></li>
+  </ul>
+  <div id="equipment" class="asset_container">
+    <%= render :active_scaffold => :equipment,
+      :constraints => {:lab_id => @record.id} %>
+  </div>
+  <div id="software" class="asset_container">
+    <%= render :active_scaffold => :softwares,
+      :constraints=> { :lab_id => @record.id} %>
+  </div>
+</div>
+
+<script>
+  new Control.Tabs('asset_tabs');
+</script>
+
+<script type="text/javascript">
+  new PeriodicalExecuter(function() {
+    form = $$('form.create')[0]
+    if( form && ! $('create_form_observer_is_on')){
+      new Insertion.Before(form, '<p style="display:none" id="create_form_observer_is_on">&nbsp;</p>')
+      new Form.Observer(form, 1, function(element, value) {
+          new Ajax.Updater( {}, '/lablog/approvals/check',
+            { asynchronous:true, evalScripts:true, method:'post', parameters:value }
+      ) } );
+            
+      // for record_members "recordselect" form_ui
+      new RecordSelect.Multiple("record_members_", "/lablog/users/browse?parent_model=Reservation", {current: []});
+    }
+  }, 5);
+  
+  // for member record select form ui
+</script>

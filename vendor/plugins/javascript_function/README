@@ -1,0 +1,9 @@
+= JavascriptFunction
+
+== Purpose
+
+Provides a class and helpers to make it easy to put javascript functions (especially anonymous ones) into RJS templates.
+
+== Credits
+
+Author: Matt Vanderpol (http://vanderbrew.com)

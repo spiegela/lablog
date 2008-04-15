@@ -1,0 +1,18 @@
+<ul id="asset_tabs" class="control_tabs">
+    <li><a href="#equipment">Equipment</a></li>
+    <li><a href="#software"> Software </a></li>
+</ul>
+<% options = {}
+   if defined? @record and @record.class == Lab 
+     options = { :constraints => {:lab_id => @record.id} } 
+   end %>
+
+<div id="equipment" class="asset_container">
+    <%= render :active_scaffold => :equipment, *options %>
+</div>
+<div id="software" class="asset_container">
+    <%= render(:active_scaffold => :softwares, *options)%>
+</div>
+<script>
+    new Control.Tabs('asset_tabs');
+</script>

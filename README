@@ -1,0 +1,3 @@
+== Lablog (temporary name)
+
+Lablog is a Rails based application that helps lab or demo center administrators schedule and manage resources.  More details will follow as I convert the app from a single-use internal app to a more general usage application.

@@ -1,0 +1,9 @@
+The following reservation has been requested by <%= @reservation.user.login %>, and did not pass auto approval.  Please review, and determine whether or not the request can be approved.
+
+<%= details(@reservation) %>
+
+To view this reservation or others in greater detail:
+<%= @url %>
+
+Select this link to approve or reject the reservation:
+<%= @review_url %>

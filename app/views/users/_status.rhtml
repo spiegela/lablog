@@ -1,0 +1,34 @@
+<div id="login_box">
+  <div id="login_info">
+  <% if logged_in? %>
+    <b>Logged in as <%= current_user.name %>, </b>
+    <p>Now that you're logged in you can:</p>
+    <ul>
+    <li>Check for an
+    <%= link_to_remote "active reservation now",
+          :url => {:controller => 'activations', :action => 'check', :excplicit_check => true }
+    %>.</li>
+    <li>If you're finished you can
+    <%= link_to "Log out.", :controller => 'users', :action => 'logout' %>.</li>
+    </ul>
+    <br />
+    <%= render :partial => 'activations/new' %>
+
+    <% reservation_count = current_user.reservations.length
+       pending_count     = current_user.pending_reservations.length
+       approved_count    = current_user.approved_reservations.length
+       rejected_count    = current_user.rejected_reservations.length
+       s = reservation_count == 1 ? "" : "s" -%>
+    <p><span class="hl">You currently have
+    <%= link_to "#{reservation_count} reservation#{s}",
+          :controller => 'reservations', :action => 'list', :user_id => current_user.id %>:  <br/>
+      <b><%= pending_count %> Pending</b>, <b><%= approved_count %> Approved</b>, and <b><%= rejected_count %> Rejected</b>
+      </span>
+  <% else %>
+    <p>You are not currerently logged in.
+    <%= link_to "You can log in", :controller => 'users', :action => 'login' %>, or
+    <%= link_to "sign up for a new account", :controller => 'users', :action => 'signup' %>.</p><br/>
+    <p> <%= link_to_remote "Forgot Password?", :url => {:controller => 'users', :action => 'forgot_password'}, :method => :get %></p>
+  <% end %>
+	</div>
+</div>

@@ -1,0 +1,289 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+cx500-5440:
+  name: CX500-5440
+  platform: Clariion
+  producer: Emc
+  model:  CX500
+  serial_number: APM00043705440
+  active: true
+  lab: kclab
+  operating_system: Flare
+  type: Equipment
+CX600-0787:
+  name: CX600-0787
+  platform: Clariion
+  producer: Emc
+  model:  CX600
+  serial_number: 0787
+  active: true
+  lab: kclab
+  operating_system: Flare
+  type: Equipment
+CX600-1289:
+  name: CX600-1289
+  platform: Clariion
+  producer: Emc
+  model:  CX600
+  serial_number: APM00031101289
+  active: true
+  lab: kclab
+  operating_system: Flare
+  type: Equipment
+Cluster-1:
+  name: Cluster 1
+  platform: Centera
+  producer: Emc
+  model:  Gen 4
+  active: true
+  lab: kclab
+  operating_system: CenteraStar
+  type: Equipment
+Cluster-2:
+  name: Cluster 2
+  platform: Centera
+  producer: Emc
+  model:  Gen 4
+  active: true
+  lab: kclab
+  type: Equipment
+Symm5-2946:
+  name: Symm5-2946
+  platform: Symmetrix
+  producer: Emc
+  model:  8730
+  serial_number: 2946
+  active: true
+  lab: kclab
+  operating_system: Enginuity
+  type: Equipment
+CFS14-0824:
+  name: CFS14-0824
+  platform: Celerra
+  producer: Emc
+  model:  CFS-14
+  serial_number: 0824
+  active: true
+  lab: kclab
+  operating_system: DART
+  type: Equipment
+NS702-2368:
+  name: NS702-2368
+  platform: Celerra
+  producer: Emc
+  model:  NS702G
+  serial_number: 2368
+  active: true
+  lab: kclab
+  operating_system: DART
+  type: Equipment
+NS702-0596:
+  name: NS702-0596
+  platform: Celerra
+  producer: Emc
+  model:  NS702G
+  serial_number: 0596
+  active: true
+  lab: kclab
+  operating_system: DART
+  type: Equipment
+w2k3-pp-00:
+  name: w2k3-pp-00
+  platform: Server
+  producer: Compaq
+  model:  1800R
+  active: true
+  lab: kclab
+  operating_system: Windows
+  type: Equipment
+ESX-00:
+  name: ESX-00
+  platform: Server
+  producer: Compaq
+  model:  DL580G2 
+  active: true
+  lab: kclab
+  operating_system: VMWware ESX Server
+  type: Equipment
+ESX-03:
+  name: ESX-03
+  platform: Server
+  producer: Dell
+  model: 1850
+  active: true
+  lab: kclab
+  operating_system: VMWware ESX Server
+  type: Equipment
+ESX-01:
+  name: ESX-01
+  platform: Server
+  producer: Dell
+  model: 2850
+  active: true
+  lab: kclab
+  operating_system: VMWware ESX Server
+  type: Equipment
+ESX-02:
+  name: ESX-02
+  platform: Server
+  producer: Dell
+  model: 2850
+  active: true
+  lab: kclab
+  operating_system: VMWware ESX Server
+  type: Equipment
+Sun-01:
+  name: Sun-01
+  platform: Server
+  producer: Sun Microsystems
+  model: Ultra 60
+  active: false
+  lab: kclab
+  operating_system: Solaris
+  type: Equipment
+Sun-02:
+  name: Sun-02
+  platform: Server
+  producer: Sun Microsystems
+  model: Ultra 10
+  active: false
+  lab: kclab
+  operating_system: Solaris
+  type: Equipment
+AIX-01:
+  name: AIX-01
+  platform: Server
+  producer: IBM
+  model: F40
+  active: true
+  lab: kclab
+  operating_system: AIX
+  type: Equipment
+DS16B2-01:
+  name: DS16B2-01
+  platform: Fibre channel
+  producer: Brocade
+  model: DS16B2
+  active: true
+  lab: kclab
+  operating_system: FabOS
+  type: Equipment
+DS16B2-02:
+  name: DS16B2-02
+  platform: Fibre channel
+  producer: Brocade
+  model: DS16B2
+  active: false
+  lab: kclab
+  operating_system: FabOS
+  type: Equipment
+MDS9216-01:
+  name: MDS9216-01
+  platform: Fibre channel
+  producer: Cisco
+  model: MDS9216
+  active: false
+  lab: kclab
+  operating_system: CiscoIOS
+  type: Equipment
+1620-01:
+  name: 1620-01
+  platform: Fibre channel
+  producer: McData
+  model: Eclipse 1620
+  active: false
+  lab: kclab
+  type: Equipment
+Linux-00:
+  name: Linux-00
+  platform: Server
+  producer: Compaq
+  model: 380 G0
+  active: true
+  lab: kclab
+  operating_system: Redhat Enterprise Linux
+  type: Equipment
+w2k3-cm-00:
+  name: w2k3-cm-00
+  platform: Server
+  producer: VMWare
+  model: Virtual Machine
+  active: true
+  lab: kclab
+  operating_system: Windwos 2003 Server Enterprise
+  type: Equipment
+w2k3-dc-00:
+  name: w2k3-dc-00
+  platform: Server
+  producer: VMWare
+  model: Virtual Machine
+  active: true
+  lab: kclab
+  operating_system: Windows
+  type: Equipment
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+Replication_Manager:
+  name: Replication Manager
+  producer: Emc
+  lab: kclab
+  active: true
+  type: Software
+PowerPath:
+  name: PowerPath
+  producer: Emc
+  lab: kclab
+  active: true
+  type: Software
+ESRS:
+  name: ESRS
+  producer: Emc
+  lab: kclab
+  active: true
+  type: Software
+Connectrix_Manger:
+  name: Connectrix Manger
+  producer: Emc
+  lab: kclab
+  active: true
+  type: Software
+Service_Assurance_Manger:
+  name: Service Assurance Manger
+  producer: Emc smarts
+  lab: kclab
+  active: true
+  type: Software
+IP_Availability_Manager:
+  name: IP Availability Manager
+  producer: Emc smarts
+  lab: kclab
+  active: true
+  type: Software
+Networker:
+  name: Networker
+  producer: Emc legato
+  lab: kclab
+  active: false
+  type: Software
+FSM:
+  name: FSM
+  producer: Emc legato
+  lab: kclab
+  active: true
+  type: Software
+Exchange:
+  name: Exchange
+  producer: Microsoft
+  lab: kclab
+  active: false
+  type: Software
+SQL_Server:
+  name: SQL Server
+  producer: Microsoft
+  lab: kclab
+  active: true
+  type: Software
+Control_Center:
+  name: Control Center
+  producer: Emc
+  lab: kclab
+  active: true
+  type: Software

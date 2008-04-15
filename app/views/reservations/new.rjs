@@ -1,0 +1,11 @@
+page.call 'var w = new Window', "new-reservation-#{@record.id}", {
+    :title => 'Create my Reservation',
+    :width => 500,
+    :className => 'alphacube',
+    :height => 450,
+    'z-index' => 30,
+    :onClose => anonymous_javascript_function(:body => '$("create_form_observer_is_on").remove();'),
+    :destroyOnClose => true }
+page.call 'w.setZIndex', 30
+page.call 'w.setHTMLContent', '<div class="windowed-scaffold">'+render(:partial => 'create_form')+'</div>'
+page.call 'w.showCenter'

@@ -1,0 +1,2 @@
+module HardwareDependenciesHelper
+end

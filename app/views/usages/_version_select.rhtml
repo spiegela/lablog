@@ -1,0 +1,3 @@
+<%= select_tag "record[usages][#{usage_id}][version][id]", :class => "version-input", :id => "record_version" %>
+<%= options_from_collection_for_select versions, :id, :version, selected_value => selected %>
+</select

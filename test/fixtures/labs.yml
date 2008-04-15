@@ -1,0 +1,49 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+kclab:
+  name: Kansas City CS Lab
+  short_name: kclab
+  location: 11225 College Blvd Ste 200, Overland Park, KS 66210
+  district: 52311
+  region: 59000
+  division: Midwest
+  firewall:  10.10.10.2
+minlab:
+  name: Minneapolis CS Lab
+  short_name: minlab
+  location: 10400 Viking Dr Ste 400, Eden Prairie, MN 55344
+  district: 
+  region: 59000
+  division: Midwest
+  firewall:  10.10.10.2
+detlab:
+  name: Detroit CS Lab
+  short_name: detlab
+  location: 20255 Victor Pkwy Ste 200, Livonia, MI 48152
+  district: 
+  region: 56000
+  division: Midwest
+  firewall:  10.10.10.2
+madlab:
+  name: Madison CS Lab
+  short_name: madlab
+  location: American Center 5133 W Terrace Dr, Madison, WI 53718
+  district: 
+  region: 53000
+  division: Midwest
+  firewall:  10.10.10.2
+cinlab:
+  name: Cinncinnati CS Lab
+  short_name: cinlab
+  location: One Kenwood Place Ste 300, Blue Ash, OH 45242
+  district: 
+  region: 65000
+  division: Midwest
+  firewall:  10.10.10.2
+chilab:
+  name: Chicago CS Lab
+  short_name: chilab
+  location: 8770 W. Bryn Mawr Ave, Chicago, IL 60631
+  district: 
+  region: 65000
+  division: Midwest
+  firewall:  10.10.10.2

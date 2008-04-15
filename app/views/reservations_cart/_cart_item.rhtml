@@ -1,0 +1,4 @@
+<li id="reservations_cart-item-<%= cart_item.id %>"><%= cart_item.to_label %>
+    <%= link_to_remote 'Remove',
+        :url => {:controller => 'reservations_cart', :action => 'destroy', :id => cart_item.id } %>
+</li>

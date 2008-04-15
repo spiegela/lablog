@@ -1,0 +1,10 @@
+<%= @user.login %>, your reservation has been rejected.  You can use the lablog site (<%= @url %>) to view, delete or create a new reservation.
+
+Approval Status:  <%= @reservation.approval_status %>
+Approvers Comments:
+  <%= @reservation.approvers_comments %>
+
+<%= details(@reservation) %>
+
+Thanks,
+KC Lab Support Group

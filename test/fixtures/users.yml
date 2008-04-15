@@ -1,0 +1,23 @@
+aaron:
+  login: spiega
+  email: spiegel_aaron@emc.com
+  super_user: true
+randy:
+  login: dickir
+  email: dickinson_randy@emc.com
+  super_user: true
+bob:
+  login: dluzeb
+  email: dluzen_bob@emc.com
+tom:
+  login: marcot
+  email: marco_tom@emc.com
+dan:
+  login: peckd
+  email: peck_dan@emc.com
+bob_b:
+  login: ballob
+  email: ballou_bob@emc.com
+tom_a:
+  login: altmat
+  email: altman_tom@emc.com

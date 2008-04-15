@@ -1,0 +1,7 @@
+author: bookwyrm
+summary: Provides a helper for putting javascript functions into RJS templates w/out them getting turned into strings.
+homepage: http://vanderbrew.com/blog/2006/07/15/my-first-rails-plugin-javascriptfunction/
+plugin: http://svn.vanderbrew.com/svn/repos/plugins/javascript_function
+license: MIT
+version: 0.2
+rails_version: 1.0+

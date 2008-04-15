@@ -1,0 +1,25 @@
+<% if @reservations and not @reservations.empty? -%>
+<script type="text/javascript">
+	function submitForm() {
+		r = new Ajax.Request(
+			'<%= url_for( :controller => 'activations', :action => 'create', :from_auto_form => true) %>',
+			{ method: 'post', asynchronous: true, evalScripts: true,
+				parameters: Form.serialize( $('reservation-activation-form') )
+			}
+		);
+		return(false);
+	}
+   </script>
+<% s = @reservations.length > 1 ? "s are" : " is" -%>
+<h4>Your reservation<%= s %> now available.  Please select and activate to access the lab remotely:</h4>
+<% form_tag url_for(:action => 'create'), :id => 'reservation-activation-form' do -%>
+<ul>
+	<% @reservations.each do |r| -%>
+		<li>
+		<%= radio_button('record', 'reservation_id', r.id) + listing(r) %>
+		</li>
+	<% end -%>
+	<%= hidden_field 'record', 'user_id', :value => current_user.id %>
+</ul>
+<% end -%>
+<% end -%>

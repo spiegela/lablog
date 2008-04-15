@@ -1,0 +1,270 @@
+cx500-5440_24:
+  version: 2.24.500.4.014
+  asset: cx500-5440
+  currently_at_this_version: true
+cx600-0787_19:
+  version: 2.19.600.5.45
+  asset: cx600-0787
+  currently_at_this_version: true
+cx600-1289_19:
+  version: 2.19.600.5.45
+  asset: cx600-1289
+  currently_at_this_version: true
+Cluster-1_3.1:
+  version: 3.1
+  asset: Cluster-1
+  currently_at_this_version: true
+Cluster-1_3.0.1:
+  version: 3.0.1
+  asset: Cluster-1
+  currently_at_this_version: false
+Cluster-2_3.1:
+  version: 3.1
+  asset: Cluster-2
+  currently_at_this_version: true
+Cluster-2_3.0.1:
+  version: 3.0.1
+  asset: Cluster-2
+  currently_at_this_version: false
+Symm-2946_5568:
+  version: 5568.6826
+  asset: Symm-2946
+  currently_at_this_version: true
+CFS14-0824_5.5:
+  version: 5.5.30.5
+  asset: CFS14-0824
+  currently_at_this_version: true
+CFS14-0824_5.5_2:
+  version: 5.5.25.2
+  asset: CFS14-0824
+  currently_at_this_version: false
+CFS14-0824_5.6:
+  version: 5.6.26.1
+  asset: CFS14-0824
+  currently_at_this_version: false
+CFS14-0824_5.4:
+  version: 5.4.25.1
+  asset: CFS14-0824
+  currently_at_this_version: false
+CFS14-0824_5.4_2:
+  version: 5.4.20.1
+  asset: CFS14-0824
+  currently_at_this_version: false
+CFS14-0824_5.4_3:
+  version: 5.4.41.400
+  asset: CFS14-0824
+  currently_at_this_version: false
+CFS14-0824_5.3:
+  version: 5.3.12.3
+  asset: CFS14-0824
+  currently_at_this_version: false
+CFS14-0824_5.1:
+  version: 5.1.20.4
+  asset: CFS14-0824
+  currently_at_this_version: false
+CFS14-0824_5.4_4:
+  asset: CFS14-0824
+NS702-2368_5.5:
+  version: 5.5.30.5
+  asset: NS702-2368
+  currently_at_this_version: true
+NS702-2368_5.5_2:
+  version: 5.5.25.2
+  asset: NS702-2368
+  currently_at_this_version: false
+NS702-2368_5.6:
+  version: 5.6.26.1
+  asset: NS702-2368
+  currently_at_this_version: false
+NS702-2368_5.4:
+  version: 5.4.25.1
+  asset: NS702-2368
+  currently_at_this_version: false
+NS702-2368_5.4_2:
+  version: 5.4.20.1
+  asset: NS702-2368
+  currently_at_this_version: false
+NS702-2368_5.4_3:
+  version: 5.4.41.400
+  asset: NS702-2368
+  currently_at_this_version: false
+NS702-2368_5.3:
+  version: 5.3.12.3
+  asset: NS702-2368
+  currently_at_this_version: false
+NS702-2368_5.1:
+  version: 5.1.20.4
+  asset: NS702-2368
+  currently_at_this_version: false
+NS702-2368_5.4_4:
+  version: 5.4.21.4
+  asset: NS702-2368
+  currently_at_this_version: false
+NS702-0596_5.5:
+  version: 5.5.30.5
+  asset: NS702-0596
+  currently_at_this_version: true
+NS702-0596_5.5_2:
+  version: 5.5.25.2
+  asset: NS702-0596
+  currently_at_this_version: false
+NS702-0596_5.6:
+  version: 5.6.26.1
+  asset: NS702-0596
+  currently_at_this_version: false
+NS702-0596_5.4:
+  version: 5.4.25.1
+  asset: NS702-0596
+  currently_at_this_version: false
+NS702-0596_5.4_2:
+  version: 5.4.20.1
+  asset: NS702-0596
+  currently_at_this_version: false
+NS702-0596_5.4_3:
+  version: 5.4.41.400
+  asset: NS702-0596
+  currently_at_this_version: false
+NS702-0596_5.3:
+  version: 5.3.12.3
+  asset: NS702-0596
+  currently_at_this_version: false
+NS702-0596_5.1:
+  version: 5.1.20.4
+  asset: NS702-0596
+  currently_at_this_version: false
+NS702-0596_5.4_4:
+  version: 5.4.21.4
+  asset: NS702-0596
+  currently_at_this_version: false
+w2k3-pp-00_2003:
+  version: 2003 Server Enterprise
+  asset: w2k3-pp-00
+  currently_at_this_version: true
+ESX-00_3.01:
+  version: 3.01
+  asset: ESX-00
+  currently_at_this_version: true
+ESX-00_3.5:
+  version: 3.5
+  asset: ESX-00
+  currently_at_this_version: false
+ESX-03_3.01:
+  version: 3.01
+  asset: ESX-03
+  currently_at_this_version: true
+ESX-03_3.5:
+  version: 3.5
+  asset: ESX-03
+  currently_at_this_version: false
+ESX-01_3.01:
+  version: 3.01
+  asset: ESX-01
+  currently_at_this_version: true
+ESX-02_3.01:
+  version: 3.01
+  asset: ESX-02
+  currently_at_this_version: true
+Sun-01_10:
+  version: 10 Sparc
+  asset: Sun-01
+  currently_at_this_version: true
+Sun-01_9:
+  version: 9 Sparc
+  asset: Sun-01
+  currently_at_this_version: true
+Sun-02_10:
+  version: 10 Sparc
+  asset: Sun-02
+  currently_at_this_version: true
+Sun-02_9:
+  version: 9 Sparc
+  asset: Sun-02
+  currently_at_this_version: true
+AIX-01_5.2:
+  version: 5.2 ML7
+  asset: AIX-01
+  currently_at_this_version: true
+DS16B2-01_3.2.1c:
+  version: 3.2.1c
+  asset: DS16B2-01
+  currently_at_this_version: true
+DS16B2-02_3.0.2m:
+  version: 3.0.2m
+  asset: DS16B2-02
+  currently_at_this_version: true
+MDS9216_2.0:
+  version: 2.0(3)
+  asset: MDS9216
+  currently_at_this_version: true
+1620-1_xxx:
+  version: xxx
+  asset: 1620-1
+  currently_at_this_version: true
+Linux-00_4.0:
+  version: 4.0
+  asset: Linux-00
+  currently_at_this_version: true
+w2k3-cm-00_2003:
+  version: 2003 Server Enterprise 
+  asset: w2k3-cm-00
+  currently_at_this_version: true
+w2k3-dc-00_2003:
+  version: 2003 Server Enterprise 
+  asset: w2k3-dc-00
+  currently_at_this_version: true
+Replication_Manger_5.0:
+  version: 5.0
+  asset: Replication_Manger
+  currently_at_this_version: true
+Replication_Manger_5.1:
+  version: 5.1
+  asset: Replication_Manger
+  currently_at_this_version: false
+PowerPath_4.5:
+  version: 4.5 Windows
+  asset: PowerPath
+  currently_at_this_version: true
+ESRS_3.0:
+  version: 3.0
+  asset: ESRS
+  currently_at_this_version: true
+Connectrix_Manager_8.9:
+  version: 8.9.1
+  asset: Connectrix_Manager
+  currently_at_this_version: false
+Connectrix_Manager_9.0:
+  version: 9.0
+  asset: Connectrix_Manager
+  currently_at_this_version: false
+Connectrix_Manager_9.1:
+  version: 9.1
+  asset: Connectrix_Manager
+  currently_at_this_version: true
+Service_Assurance_Manager_7.0:
+  version: 7.0
+  asset: Service_Assurance_Manager
+  currently_at_this_version: true
+IP_Availability_Manager_7.0:
+  version: 7.0
+  asset: IP_Availability_Manager
+  currently_at_this_version: true
+Networker_7.0:
+  version: 7.0
+  asset: Networker
+  currently_at_this_version: true
+FSM_6.2:
+  version: 6.2
+  asset: FSM
+  currently_at_this_version: true
+Exchange_2003:
+  version: 2004
+  asset: Exchange
+  currently_at_this_version: true
+SQL_Server_2004:
+  version: 2004
+  asset: SQL_Server
+  currently_at_this_version: true
+Control_Center_5.2:
+  version: 5.2 SP3
+  asset: Control_Center
+  currently_at_this_version: true

@@ -1,0 +1,28 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+kclab_aaron:
+  lab: kclab
+  user: aaron
+  approver: true
+  administrator: true
+  super_administrator: true
+kclab_randy:
+  lab: kclab
+  user: randy
+  approver: true
+  administrator: true
+  super_administrator: true
+detlab_dan:
+  lab: detlab
+  user: dan
+  approver: true
+  administrator: true
+cinlab_tom:
+  lab: cinlab
+  user: tom
+  approver: true
+  administrator: true
+chilab_bob:
+  lab: chilab
+  user: bob
+  approver: true
+  administrator: true

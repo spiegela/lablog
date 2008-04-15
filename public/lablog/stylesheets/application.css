@@ -1,0 +1,361 @@
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6,
+pre, form, fieldset, input, textarea, p, blockquote, th, td {
+    margin: 0;
+    padding: 0;
+}
+body { z-index: -10;}
+div.header {
+    margin: 0px;
+    padding-left: 2em;
+    background-color: royalblue;
+    background-image: none;
+    font-family: arial;
+    color: #EEE;
+    min-height: 2.5em;
+}
+
+div.header a, div#login_info a {
+    font-weight: bold;
+    color: #0066CC;
+    font-size: 1em;
+}
+
+div.header a:hover, div#login_info a {
+    color: #0066CC;
+    background-color: #FFFF88;
+}
+
+ul#navigation_links{
+    float: left;
+}
+
+ul#navigation_links li a{
+    color: #333;
+    width: 10em;
+}
+
+div#content {
+    margin: 1em 1em;
+    padding: 0pt;
+}
+
+div#asset_container{
+    display: inline;
+    margin-right: 19em;
+    min-width: 715px;
+}
+
+div#account_box{
+    font-family: arial;
+    background-color: #DAFFCD;
+    border: 1px solid #7FCF00;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 1em;
+}
+
+span.readonly_field{
+    font-family: arial;
+    font-size: 12pt;
+    font-weight: bold;
+    padding: 2px;
+    margin-left: .2em 0;
+}
+
+div#habtm_checkbox{
+    overflow: scroll;
+}
+
+div.dialog{
+}
+
+div.windowed-scaffold{
+    padding: 2em;
+    background-color: #DAFFCD;
+    border: 1px solid #7FCF00;
+}
+
+div.windowed_scaffold h4{
+    font-size: 2em;
+}
+
+.windowed_scaffold ol{
+    list-style-type: none;
+}
+
+.windowed_scaffold .errorExplanation{
+    background-color: #FFCCCC;
+    border: 1px solid #FF6666;
+    margin: 2px 0pt;
+    padding: 0pt;
+}
+
+.windowed_scaffold .errorExplanation h2{
+    background-color: #FF6666;
+    color: #333;
+    font-family: Verdana;
+    font-size: 11px;
+    letter-spacing: 0pt;
+    margin: 0pt;
+    padding: 2px 5px;
+    border-collapse: separate;
+}
+
+.windowed_scaffold .errorExplanation p{
+    font-family: Verdana;
+    font-size: 11px;
+    margin: 0pt;
+    padding: 2px 5px;
+    clear: both;
+    border-collapse: separate;
+}
+.windowed_scaffold .errorExplanation ul{
+    list-style-image: none;
+    list-style-position: outside;
+    list-style-type: disc;
+    margin: 0pt;
+    padding: 0pt 2px 4px 25px;
+}
+.windowed_scaffold .errorExplanation ul li{
+    background-color: transparent;
+    font-family: Verdana;
+    font-size: 11px;
+    font-weight: bold;
+    letter-spacing: -1px;
+}
+div.activation_window {
+    background-color: #DAFFCD;
+    padding: 1em;
+    color: black;
+    font-size: 1.2em;
+}
+div#activation_window div.alphacube_message{
+    text-align: left;
+}
+div#activation_window div.alphacube_message form ul{
+    margin-left: 1em;
+}
+div span.listing{
+    margin-left: 1.2em;
+} 
+div span.listing ul{
+    list-style-type: circle;
+    margin-left:1.4em;
+} 
+span.hl{
+    background-color: #FFFF88;
+    font-style: italic;
+}
+
+
+/* Control Tabs
+--------------------*/
+
+ul.control_tabs {
+    list-style:none;
+    clear:both;
+    /*border-bottom:1px solid #666;*/
+    height:20px;
+    clear:both;
+    font-family: arial,sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+    z-index: 1;
+}
+
+ul.control_tabs li {
+	float:left;
+	margin-right:7px;
+	text-align:center;
+	vertical-align: bottom;
+}
+
+ul.control_tabs li a {
+	display:block;
+	height:20px;
+	padding:0 6px 0 6px;
+	background-color:#fff;
+	color:#666;
+	width:80px;
+}
+
+ul.control_tabs li a:hover {
+	color:#666;
+}
+
+ul.control_tabs li a.active {
+	background-color:#555;
+}
+
+ul.control_tabs li a.active {
+	background-color:#555;
+	color:#fff;
+}
+
+/* Control Panel Specific Tabs */
+
+div#control-panel{
+    margin-left: 1em;
+    margin-top: 0pt;
+    padding: 0pt;
+    position: absolute;
+    z-index: 1;
+}
+
+ul#control-panel-tabs li{
+	border: solid 1px;
+	border-top: hidden;
+}
+
+ul#control-panel-tabs li a{width: 8em;}
+
+ul#control-panel-tabs li#activation-status-tab a,
+ul#control-panel-tabs li#reservations-cart-tab a{
+    width: 15em;
+}
+
+ul#control-panel-tabs li#activation-status-tab a{
+    background-color: #B9DCFF;
+}
+
+ul#control-panel-tabs li#reservations-cart-tab a{
+    background-color: #DAFFCD;
+}
+
+ul#control-panel-tabs li#activation-status-tab a.active {
+    background-color: royalblue;
+}
+
+ul#control-panel-tabs li#reservations-cart-tab a.active {
+    background-color: #006600;
+}
+
+/* Control Panel Panes */
+
+div#control-panel-panes{
+    overflow: auto;
+    background-color: #cccccc;
+    width: 45em;
+    opacity: .92;
+}
+
+div#control-panel-panes span.control_panel_button{
+    width: 8em;
+    height: 2em;
+    margin: 0pt;
+}
+
+div#control-panel-panes div{
+    width: 42.7em;
+    margin-right: -8em;
+    float: left;
+}
+
+div#reservations_cart{
+    padding: 1em;
+    font-family: arial;
+    background-color: #DAFFCD;
+    border: solid 1px #7FCF00;
+    float: left;
+}
+div#reservations_cart ul li{
+    padding: .3em;
+    margin: .3em;
+    border-color: #7FCF00;
+}
+
+div#activation-status{
+    font-family: arial;
+    padding: 1em;
+    font-size: .8em;
+    background-color: #B9DCFF;
+    border: solid 1px royalblue;
+    float: left;
+}
+
+/* Pre Approval Messages
+--------------------------*/
+
+.active-scaffold .pre-approval-status-approved,
+.windowed-scaffold .pre-approval-status-approved,
+.active-scaffold .pre-approval-status-rejected,
+.windowed-scaffold .pre-approval-status-rejected,
+.active-scaffold .pre-approval-status-not_auto,
+.windowed-scaffold .pre-approval-status-not_auto { margin: 2px 0; }
+
+.active-scaffold .pre-approval-status-approved,
+.windowed-scaffold .pre-approval-status-approved {
+background-color: #BFFFBF;
+border: solid 1px #00CC00;
+}
+
+.active-scaffold .pre-approval-status-rejected,
+.windowed-scaffold .pre-approval-status-rejected {
+background-color: #fcc;
+border: solid 1px #f66;
+}
+
+.active-scaffold .pre-approval-status-not_auto,
+.windowed-scaffold .pre-approval-status-not_auto {
+background-color: #FFFFBF;
+border: solid 1px #FFFF80;
+}
+
+.active-scaffold .pre-approval-status-approved h2,
+.windowed-scaffold .pre-approval-status-approved h2,
+.active-scaffold .pre-approval-status-rejected h2,
+.windowed-scaffold .pre-approval-status-rejected h2,
+.active-scaffold .pre-approval-status-not_auto h2,
+.windowed-scaffold .pre-approval-status-not_auto h2 {
+padding: 2px 5px;
+color: #333;
+font-size: 11px;
+margin: 0;
+letter-spacing: 0;
+font-family: Verdana;
+}
+
+.active-scaffold .pre-approval-status-approved h2,
+.windowed-scaffold .pre-approval-status-approved h2 { background-color: #008F00; }
+
+.active-scaffold .pre-approval-status-rejected h2,
+.windowed-scaffold .pre-approval-status-rejected h2 { background-color: #f66; }
+
+.active-scaffold .pre-approval-status-not_auto h2,
+.windowed-scaffold .pre-approval-status-not_auto h2 { background-color: #FFFF00; }
+
+.active-scaffold .pre-approval-status-approved ul,
+.windowed-scaffold .pre-approval-status-approved ul,
+.active-scaffold .pre-approval-status-rejected ul,
+.windowed-scaffold .pre-approval-status-rejected ul,
+.active-scaffold .pre-approval-status-not_auto ul,
+.windowed-scaffold .pre-approval-status-not_auto ul {
+margin: 0;
+padding: 0 2px 4px 25px;
+list-style: disc;
+}
+
+.active-scaffold .pre-approval-status-approved p,
+.windowed-scaffold .pre-approval-status-approved p,
+.active-scaffold .pre-approval-status-rejected p,
+.windowed-scaffold .pre-approval-status-rejected p,
+.active-scaffold .pre-approval-status-not_auto p,
+.windowed-scaffold .pre-approval-status-not_auto p {
+font-size: 11px;
+padding: 2px 5px;
+font-family: Verdana;
+margin: 0;
+}
+
+.active-scaffold .pre-approval-status-approved ul li,
+.windowed-scaffold .pre-approval-status-approved ul li,
+.active-scaffold .pre-approval-status-rejected ul li,
+.windowed-scaffold .pre-approval-status-rejected ul li,
+.active-scaffold .pre-approval-status-not_auto ul li,
+.windowed-scaffold .pre-approval-status-not_auto ul li {
+font: bold 11px verdana;
+letter-spacing: -1px;
+margin: 0;
+padding: 0;
+background-color: transparent;
+}

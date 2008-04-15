@@ -1,0 +1,8 @@
+<h2> Pre-Approval Status: <%= state %></h2>
+<p>If this reservation were submitted as is, it would <%= l_state %> upon creation</p>
+<% unless errors.empty? -%>
+  <p>Reasons for this state are as follows:</p>
+  <ul>
+    <% errors.each do |e| %><li><%= e %></li><% end %>
+  </ul>
+<% end -%>

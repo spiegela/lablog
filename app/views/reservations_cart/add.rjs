@@ -1,0 +1,8 @@
+page['reservations_cart'].replace_html :partial => 'reservations_cart/cart' 
+page << 'if(! $("control-panel-panes").visible() ) {'
+page << 'toggle_ctrl_panel("reservations_cart")'
+page << '}'
+page << 'tabs = new Control.Tabs("control-panel-tabs");'
+page << 'tabs.setActiveTab("reservations_cart");'
+
+page.visual_effect( :highlight, "reservations_cart-item-#{@asset.id}" )

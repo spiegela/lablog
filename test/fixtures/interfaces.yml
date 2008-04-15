@@ -1,0 +1,244 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+cx500-5440_spa:
+  name: SP A
+  ip_address:  10.10.10.140
+  hostname:  cx500-5440-spa.kclab.emc.com
+  asset: cx500-5440
+  primary: true
+cx500-5440_spb:
+  name: SP B
+  ip_address:  10.10.10.141
+  hostname:  cx500-5440-spb.kclab.emc.com
+  asset: cx500-5440
+  primary: false
+cx600-0787_spb:
+  name: SP A
+  ip_address:  10.10.10.142
+  hostname:  cx600-0787-spa.kclab.emc.com
+  asset: cx600-0787
+  primary: true
+cx600-0787_spb:
+  name: SP B
+  ip_address:  10.10.10.143
+  hostname:  cx600-0787-spb.kclab.emc.com
+  asset: cx600-0787
+  primary: false
+cx600-1289_spb:
+  name: SP A
+  ip_address:  10.10.10.144
+  hostname:  cx600-1289-spa.kclab.emc.com
+  asset: cx600-1289
+  primary: true
+cx600-1289_spb:
+  name: SP B
+  ip_address:  10.10.10.145
+  hostname:  cx600-1289-spb.kclab.emc.com
+  asset: cx600-1289 
+  primary: false
+Cluster-1_c01n001:
+  name: c01n001
+  ip_address:  10.10.10.171
+  hostname:  centera-1-c001n01.kclab.emc.com
+  asset: Cluster-1
+  primary: true
+Cluster-1_c01n002:
+  name: c01n002
+  ip_address:  10.10.10.172
+  hostname:  centera-1-c001n02.kclab.emc.com
+  asset: Cluster-1
+  primary: false
+Cluster-2_c01n001:
+  name: c01n001
+  ip_address:  10.10.10.173
+  hostname:  centera-2-c001n01.kclab.emc.com
+  asset: Cluster-2
+  primary: true
+Cluster-2_c01n002:
+  name: c01n002
+  ip_address:  10.10.10.174
+  hostname:  centera-2-c001n02.kclab.emc.com
+  asset: Cluster-2
+  primary: false
+Symm5-2946_lan1:
+  ip_address:  10.10.10.11
+  hostname:  symm5-2946.kclab.emc.com
+  asset: Symm5-2946
+  primary: true
+CFS14-0824_cs0:
+  name: CS0
+  ip_address:  10.10.10.110
+  hostname:  CFS14-0824-CS0.kclab.emc.com
+  asset: CFS14-0824
+  primary: true
+CFS14-0824_dm2:
+  name: DM2
+  ip_address:  10.10.10.111
+  hostname:  CFS14-0824-DM2.kclab.emc.com
+  asset: CFS14-0824
+  primary: false
+CFS14-0824_dm3:
+  name: DM3
+  ip_address:  10.10.10.112
+  hostname:  CFS14-0824-DM3.kclab.emc.com
+  asset: CFS14-0824
+  primary: false
+CFS14-0824_dm4:
+  name: DM4
+  ip_address:  10.10.10.113
+  hostname:  CFS14-0824-DM4.kclab.emc.com
+  asset: CFS14-0824
+  primary: false
+CFS14-0824_vdm00:
+  name: VDM00
+  ip_address:  10.10.10.114
+  hostname:  CFS14-0824-VDM00.kclab.emc.com
+  asset: CFS14-0824
+  primary: false
+CFS14-0824_vdm01:
+  name: VDM01
+  ip_address:  10.10.10.115
+  hostname:  CFS14-0824-VDM01.kclab.emc.com
+  asset: CFS14-0824
+  primary: false
+CFS14-0824_vdm02:
+  name: VDM02
+  ip_address:  10.10.10.116
+  hostname:  CFS14-0824-VDM02.kclab.emc.com
+  asset: CFS14-0824
+  primary: false
+CFS14-0824_vdm03:
+  name: VDM03
+  ip_address:  10.10.10.117
+  hostname:  CFS14-0824-VDM03.kclab.emc.com
+  asset: CFS14-0824
+  primary: false
+NS702-0596_CS0:
+  name: CS0
+  ip_address:  10.10.10.124
+  hostname:  NS702-0596-CS0.kclab.emc.com
+  asset: NS702-0596
+  primary: true
+NS702-0596_dm2:
+  name: DM2
+  ip_address:  10.10.10.125
+  hostname:  NS702-0596-DM2.kclab.emc.com
+  asset: NS702-0596
+  primary: false
+NS702-0596_dm3:
+  name: DM3
+  ip_address:  10.10.10.126
+  hostname:  NS702-0596-DM3.kclab.emc.com
+  asset: NS702-0596
+  primary: false
+NS702-0596_vdm00:
+  name: VDM00
+  ip_address:  10.10.10.127
+  hostname:  NS702-0596-VDM00.kclab.emc.com
+  asset: NS702-0596
+  primary: false
+NS702-0596_vdm01:
+  name: VDM01
+  ip_address:  10.10.10.128
+  hostname:  NS702-0596-VDM01.kclab.emc.com
+  asset: NS702-0596
+  primary: false
+NS702-2368_CS0:
+  name: CS0
+  ip_address:  10.10.10.118
+  hostname:  NS702-2368-CS0.kclab.emc.com
+  asset: NS702-2368
+  primary: true
+NS702-2368_dm2:
+  name: DM2
+  ip_address:  10.10.10.119
+  hostname:  NS702-2368-DM2.kclab.emc.com
+  asset: NS702-2368
+  primary: false
+NS702-2368_dm3:
+  name: DM3
+  ip_address:  10.10.10.120
+  hostname:  NS702-2368-DM3.kclab.emc.com
+  asset: NS702-2368
+  primary: false
+NS702-2368_vdm00:
+  name: VDM00
+  ip_address:  10.10.10.121
+  hostname:  NS702-2368-VDM00.kclab.emc.com
+  asset: NS702-2368
+  primary: false
+NS702-2368_vdm01:
+  name: VDM01
+  ip_address:  10.10.10.122
+  hostname:  NS702-2368-VDM01.kclab.emc.com
+  asset: NS702-2368
+  primary: false
+w2k3-pp-00_lan1:
+  name: lan1
+  ip_address:  10.10.10.40
+  hostname:  w2k3-pp-00.kclab.emc.com
+  asset: NS702-2368
+  primary: true
+ESX-00_eth0:
+  name: eth0
+  ip_address:  10.10.10.60
+  hostname:  esx-00.kclab.emc.com
+  asset: ESX-00
+  primary: true
+ESX-03_eth0:
+  name: eth0
+  ip_address:  10.10.10.63
+  hostname:  esx-03.kclab.emc.com
+  asset: ESX-03
+  primary: true
+ESX-01_eth0:
+  name: eth0
+  ip_address:  10.10.10.61
+  hostname:  esx-01.kclab.emc.com
+  asset: ESX-01
+  primary: true
+ESX-02_eth0:
+  name: eth0
+  ip_address:  10.10.10.62
+  hostname:  esx-02.kclab.emc.com
+  asset: ESX-02
+  primary: true
+Sun-01_hme0:
+  name: hme0
+  ip_address:  10.10.10.82
+  hostname:  sun-01.kclab.emc.com
+  asset: Sun-01
+  primary: true
+Sun-02_hme0:
+  name: hme0
+  ip_address:  10.10.10.83
+  hostname:  sun-02.kclab.emc.com
+  asset: Sun-02
+  primary: true
+AIX-01_xxx:
+  ip_address:  10.10.10.84
+  hostname:  aix-01.kclab.emc.com
+  asset: AIX-01
+  primary: true
+DS16B2-01_eth:
+  ip_address:  10.10.10.182
+  hostname:  ds16b2-01.kclab.emc.com
+  asset: D15B2-01
+  primary: true
+Linux-00_eth0:
+  name: eth0
+  ip_address:  10.10.10.81
+  hostname:  linux-00.kclab.emc.com
+  asset: Linux-00
+  primary: true
+w2k3-cm-00_lan1:
+  name: lan1
+  ip_address:  10.10.10.25
+  hostname:  w2k3-cm-00.kclab.emc.com
+  asset: w2k3-cm-00
+  primary: true
+w2k3-dc-00_lan1:
+  name: lan1
+  ip_address:  10.10.10.24
+  hostname:  w2k3-dc-00.kclab.emc.com
+  asset: w2k3-dc-00
+  primary: true
